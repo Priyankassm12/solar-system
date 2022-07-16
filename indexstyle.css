@@ -629,7 +629,7 @@ ul.solarsystem li.pluto {-webkit-animation-duration:120s; -moz-animation-duratio
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background: url(images/sun.jpg);
+	background: url(images/night.jpg);
 	background-size: cover;
 }
 .contact .content
@@ -719,10 +719,6 @@ ul.solarsystem li.pluto {-webkit-animation-duration:120s; -moz-animation-duratio
 	margin: 10px o;
 	border: none;
 }
-
-
-
-
 
 
 
