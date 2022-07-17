@@ -8,22 +8,215 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/
 	libs/animate.css/3.7.2/animate.min.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+      
+      html {
+        box-sizing: border-box;
+      }
+      
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      
+      .column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+      }
+      
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+      }
+      
+      .about-section {
+        padding: 50px;
+        text-align: center;
+        background-color: #474e5d;
+        color: white;
+      }
+      
+      .container {
+        padding: 0 16px;
+      }
+      
+      .container::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .title {
+        color: grey;
+      }
+      
+      .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
+      
+      .button:hover {
+        background-color: #555;
+      }
+      
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }</style>
 </head>
 <body>
-    <header>
+    <div>
         <nav>
             <div class="logo">
                 <h1 class="animated infinte heartBeat"> Our Solar System</h1>
             </div>
             <div class="menu">
-                <a href="index.html">Home</a>
+                <a class="text-white" href="index.html">Home</a>
                 <a href="gallery.html">Gallery</a>
-                <a href="about.html">About</a>
+                <a class="text-success"href="about.html">About</a>
                 <a href="contact.html">contact</a>
             </div>
         </nav>
-    </header>
+        <div class="about-section text-info">
+            <h1>About Us Page</h1>
+            <h3>My project is Solar Systen.</h3>
+            <p> I am Priyanka Kumari</p>
+            <p>I am Web developer</p>
+          </div>
+    </div>
+      
+      <h2 class="text-center text-white">Our Achievement</h2>
+      <div class="row">
+        <div class="card text-white bg-warning mb-3 col" style="max-width: 18rem;">
+            <div class="card-header text-dark text-center">ISRO</div>
+            <div class="card-body">
+              <h5 class="card-title text-danger">CHANDRAYAN-2</h5>
+              <p class="card-text text-light">Chandrayaan-2 is the second lunar exploration mission developed by the Indian Space Research Organisation,
+                 after Chandrayaan-1. It consists of a lunar orbiter, and also included the Vikram lander, and the Pragyan lunar rover, all of which were developed in India.</p>
+            </div>
+          </div>
+          <div class="card text-white bg-secondary mb-3 col" style="max-width: 18rem;">
+            <div class="card-header text-center text-dark">ECLIPSE</div>
+            <div class="card-body">
+              <h5 class="card-title text-warning">ECLIPSE</h5>
+              <p class="card-text text-white">A solar eclipse occurs when the Moon passes between Earth and the Sun,
+                 thereby obscuring Earth's view of the Sun, totally or partially. Such an alignment coincides with a new moon,
+                  indicating the Moon is closest to the plane of the Earth's orbit.
+                 In a total eclipse, the disk of the Sun is fully obscured by the Moon.</p>
+            </div>
+          </div>
+          <div class="card text-white bg-primary mb-3 col" style="max-width: 18rem;">
+            <div class="card-header text-center text-dark">NASA</div>
+            <div class="card-body">
+              <h5 class="card-title text-warning">NASA's</h5>
+              <p class="card-text text-light">NASA’s planetary science program is engaged in one of the oldest scientific pursuits:
+                 the observation and discovery of our solar system’s planetary objects.
+                 We undertake this enterprise in order to better understand the history of
+                  our solar system and the distribution of life within it.</p>
+            </div>
+          </div>
+          <div class="card text-white bg-danger mb-3 col" style="max-width: 18rem;">
+            <div class="card-header text-center text-dark">PLANET</div>
+            <div class="card-body">
+              <h5 class="card-title text-warning">PLANET</h5>
+              <p class="card-text">planet, (from Greek planētes, “wanderers”), broadly,
+                 any relatively large natural body that revolves in an orbit around the Sun or 
+                 around some other star and that is not radiating energy from internal nuclear fusion reactions.
+                  In addition to the above description, some scientists impose additional.
+                 </p>
+            </div>
+          </div>
+          <div class="card text-white bg-success mb-3 col" style="max-width: 18rem;">
+  <div class="card-header text-center text-dark">SOLAR</div>
+  <div class="card-body">
+    <h5 class="card-title text-warning">SOLAR SYSTEM</h5>
+    <p class="card-text">The Solar System is the gravitationally bound system of the Sun and the objects that orbit it.
+         It formed 4.6 billion years ago from the gravitational collapse of a giant interstellar molecular cloud. 
+        The vast majority of the system's mass is in the Sun, with most of the remaining mass contained in the planet Jupiter.</p>
+  </div>
+</div>
+</div>
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <h3>Training <span>logo</span></h3>
+
+      <p class="footer-links">
+        <a href="#" class="link-1">Home</a>
+        
+        <a href="#">Blog</a>
+      
+        <a href="#">Pricing</a>
+      
+        <a href="#">About</a>
+        
+        <a href="#">Faq</a>
+        
+        <a href="#">Contact</a>
+      </p>
+
+      <p class="footer-company-name">Training Cetpa @ 2022</p>
+    </div>
+
+    <div class="footer-center">
+
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>SASARAM ,ROHTAS</span> PATNA, INDIA</p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+91-729-500-0684</p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:support@company.com">priyankakusingh3@gmail.com</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p class="footer-company-about">
+        <span>About the company</span>
+        Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+      </p>
+
+      <div class="footer-icons">
+
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+      
 </body>
 </html>
