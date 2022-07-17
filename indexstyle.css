@@ -192,8 +192,8 @@ ul.solarsystem li.sun {
         linear,
         left bottom,
         left top,
-        color-stop(0.22, rgb(204,153,0)),
-        color-stop(1, rgb(255,219,112))
+        color-stop,0.22, rgb(204,153,0)
+        color-stop1, rgb(255,219,112)
     );
     background-image: -moz-linear-gradient(
         center bottom,
